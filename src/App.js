@@ -15,7 +15,7 @@ const App = () => {
   return (
 
     <div className='h-full bg-pattern bg-repeat max-w-[1800px] mx-auto overflow-hidden'>
-       
+
     <BrowserRouter>
       <Header/>
       <Routes>

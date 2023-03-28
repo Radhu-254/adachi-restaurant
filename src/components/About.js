@@ -1,9 +1,6 @@
 import React from 'react';
-// import data
 import { aboutData } from '../data';
-// import motion
 import { motion } from 'framer-motion';
-// import variants
 import { plateVariants, staggerContainer, fadeIn } from '../variants';
 
 const About = () => {
@@ -33,7 +30,7 @@ const About = () => {
                 {btnText}
               </button>
             </a>
-        
+
           </motion.div>
           {/* image */}
           <motion.div

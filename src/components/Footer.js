@@ -1,13 +1,8 @@
 import React from 'react';
-// import components
 import Newsletter from './Newsletter';
 import Copyright from './Copyright';
-
-// import data
 import { footerData } from '../data';
-// import motion
 import { motion } from 'framer-motion';
-// import variants
 import { fadeIn, staggerContainer } from '../variants';
 
 const Footer = () => {

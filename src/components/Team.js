@@ -1,9 +1,6 @@
 import React from 'react';
-// import data
 import { teamData } from '../data';
-// import motion
 import { motion } from 'framer-motion';
-// import variants
 import { fadeIn } from '../variants';
 
 const Team = () => {

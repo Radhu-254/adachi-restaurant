@@ -7,7 +7,7 @@ const TestimonialCarousel = ({ slider }) => {
   return (
     <Carousel
       showThumbs={false}
-      showStatus={false}
+      showStatus={true}
       showIndicators={false}
       autoPlay={false}
       infiniteLoop={true}

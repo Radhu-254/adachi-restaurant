@@ -1,19 +1,11 @@
 import React, { useState } from 'react';
-// import data
 import { reservationData } from '../data';
-// import datepicker
 import DatePicker from 'react-datepicker';
-// import datepicker css
 import 'react-datepicker/dist/react-datepicker.css';
-// import timepicker
 import TimePicker from 'react-time-picker';
-// import timepicker css
 import '../timepicker.css';
-// import icons
 import { FaUsers, FaCalendar, FaClock } from 'react-icons/fa';
-// import motion
 import { motion } from 'framer-motion';
-// import variants
 import { fadeIn, staggerContainer } from '../variants';
 
 const Reservation = () => {
@@ -22,7 +14,7 @@ const Reservation = () => {
   // date state
   const [startDate, setStartDate] = useState(new Date());
   // clock state
-  const [value, setValue] = useState('10:00');
+  const [value, setValue] = useState('12:00');
 
   return (
     <section className='relative top-96 z-30 pb-20 lg:py-[100px]'>
@@ -99,7 +91,7 @@ const Reservation = () => {
               />
             </div>
 
-   
+
           </div>
 
 

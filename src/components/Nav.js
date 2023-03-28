@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const navData = [
   { href: '/', name: 'home' },
   { href: '/about', name: 'about' },
@@ -9,6 +8,7 @@ const navData = [
   { href: '/reservation', name: 'Reservation' },
   { href: '/team', name: 'Chef' },
 ];
+
 const Nav = () => {
   return (
     <nav className='w-full h-full'>

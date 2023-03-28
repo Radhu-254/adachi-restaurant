@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
-// import components
 import Nav from '../components/Nav';
-// import logo
 import Logo from '../assets/img/header/logo-1.png';
-// import motion
 import { motion } from 'framer-motion';
 // import variants
 import { staggerContainer, fadeIn } from '../variants';
@@ -100,7 +97,6 @@ const Header = () => {
             className='order-1 lg:order-none lg:ml-[11rem]'
           >
             <a href='/'>
-              {/* if header is active make logo 90 x 90 px else 107 x 107px */}
               <img
                 className={`${
                   isActive ? 'w-[150px] h-[90px]' : 'w-[150px] h-[107px]'
@@ -111,7 +107,7 @@ const Header = () => {
             </a>
           </motion.div>
 
-          {/* nav */}
+          {/* options menu */}
           <motion.div
             variants={navVariants}
             initial='hidden'

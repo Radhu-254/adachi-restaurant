@@ -1,11 +1,7 @@
 import React from 'react';
-// import data
 import { heroData } from '../data';
-// import components
 import Header from './Header';
-// import motion
 import { motion } from 'framer-motion';
-// import variants
 import { fadeIn, staggerContainer } from '../variants';
 
 const Hero = () => {
